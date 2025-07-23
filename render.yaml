@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: instagram-watcher
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: "python main.py"
+    envVars:
+      - key: WEBHOOK_URL
+        sync: false
