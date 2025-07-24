@@ -1,2 +1,2 @@
+instaloader
 requests
-beautifulsoup4
